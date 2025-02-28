@@ -1,0 +1,469 @@
+html, body {
+  width: 100%;
+ 
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: serif;
+  font-weight: 100;
+  /* transform: scale(1, .95); */
+  /* background-color: black; */
+}
+
+/* #preloader {
+  background: rgb(255, 255, 255) url(assets/images/other/appleii.gif) no-repeat center center;
+  background-size: 25%;
+  /* filter: blur(8px);
+  -webkit-filter: blur(8px); */
+  /* height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 1100;
+} */
+/* ===================Head of Page======================== */
+
+
+
+.title {
+    text-align: center;
+    align-content: center;
+    font-size: 4vw;
+    width: 80%;
+    margin: auto;
+    font-weight: bold;
+    padding: 3.5% 0 1% 1.2%;
+    letter-spacing: 11px;
+    transform: scale(1, .95);
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-style: italic; */
+    font-weight: 400;
+    color: rgb(3, 111, 33);
+    /* text-transform: lowercase; */
+    /* font-family: 'Shippori Mincho', serif; */
+    /* the css header link is only in the index page -- update all html pages to use google fonts */
+
+    /* background-color: aqua; */
+}
+
+.subTitle {
+    text-align: center;
+    font-size: 1vw;
+  
+    letter-spacing: 5px;
+    color: rgb(3, 111, 33);
+    transform: scale(1, .93);
+    margin-bottom: 4%;
+   
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    text-transform: uppercase;
+    
+}
+
+
+.logoImage {
+  width: 40%;
+  align-items: center;
+  margin: 0 auto;
+  align-content: center;
+  align-items:center;
+  display: block;
+}
+
+.logoImageDiv {
+  align-items: center;
+  margin: 0 auto;
+  align-content: center;
+  align-items:center;
+}
+
+/* ================NAV================= */
+.nav {
+    text-align: center;
+    align-content: center;
+    font-size: 90%;
+    margin: 0 15%;
+    transform: scale(1, .9);
+    color: hotpink;
+   
+}
+.navSub {
+    transform: scale(1, .9);
+    text-align: center;
+    padding: 1% auto;
+    align-content: center;
+    margin: 0 auto;
+    color: rgb(25, 156, 95);
+    text-decoration: none;
+    font-family: serif;
+    font-style: normal;
+    }
+ .navSub:link {
+    color: rgb(1, 118, 87);
+    text-decoration: none;
+  }
+  
+  .navSub:visited {
+    color: none;
+  }
+  
+  .navSub:hover {
+    color: rgb(140, 205, 185);
+    /* text-shadow: 1px 1px 8px rgba(200,200,200,10); */
+  }
+  
+  .navSub:active {
+    color: rgb(140, 205, 185);
+    
+  }
+
+  .navActivePage {
+    color: rgb(140, 205, 185);
+  }
+
+  /* ==========={ BS nav BS }=========== */
+  .navbar {
+    background-color: none;
+    text-align: center;
+    align-content: center;
+  }
+  .bg {
+    background-color: none;
+    text-align: center;
+    align-content: center;
+    /* color: aqua; */
+  }
+  .navbar-light {
+      background-color: none;
+      text-align: center;
+    align-content: center; 
+    /* background-color: hotpink;  */
+  }
+  .navbar-expand-lg {
+    background-color: none;
+    text-align: center;
+    align-content: center;
+  }
+  .navbar-nav {
+    text-align: center;
+    padding: 1% auto;
+    align-content: center;
+    margin: 0 auto;
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+  }
+.navbar-nav:hover {
+    /* color: rgb(207, 0, 0); */
+}
+  .nav-item {
+    text-align: center;
+    padding: 1% auto;
+    align-content: center;
+    margin: 0 auto;
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+  }
+
+  .nav-item:hover {
+    color: rgb(190, 190, 190);
+  }
+  .nav-link {
+    text-align: center;
+    padding: 1% auto;
+    align-content: center;
+    margin: 0 auto;
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+  }
+  .navbar-toggler {
+    text-align: center;
+    align-content: center;
+    margin: 0 auto;
+    color: red;
+    /* background-color: rgba(189, 249, 214, 0.473); */
+  }
+  .navbar-toggler-icon {
+    text-align: center;
+    align-content: center;
+    /* background-color: hotpink; */
+    
+  }
+/* ============================={ End Head of Page }================================ */
+
+/* ===================={ index }==================================================== */
+
+
+
+.vegGardenImage {
+  width: 100%;
+  margin: 0 auto;
+  align-content: center;
+  align-content: center;
+
+}
+
+.aboutSection{
+  text-align: center;
+  color: rgb(25, 156, 95);
+  margin: 0 auto 5% auto;
+}
+.phone{
+  font-style: italic;
+}
+
+.menuSection {
+  text-align: center;
+  color: rgb(25, 156, 95);
+  margin: 0 auto 10% auto;
+}
+
+.menuCols {
+  text-align: center;
+  margin: 0 auto;
+  /* background-color: red; */
+}
+.menuInnerCols {
+  text-align: left;
+  /* background-color: blue; */
+  /* margin: 0 5% 0 auto; */
+}
+
+
+
+
+/* =========================={ Footer }========================================== */
+
+
+.footerRowMaster {
+  background-color: rgb(29, 29, 29);
+  
+}
+
+.footerRow {
+  background-color: rgb(29, 29, 29);
+  /* height: 30vh; */
+  color: white;
+}
+
+.footerLeftCol {
+  text-align: center;
+  align-content: center;
+  margin: 5% auto;
+  /* margin: auto; */
+  /* background-color: red; */
+  text-decoration: none;
+  
+}
+.footerMidCol {
+  text-align: center;
+  align-content: center;
+  margin: 5% auto;
+  /* padding: auto 20px auto 0px; */
+  /* margin: auto; */
+  /* background-color: rgb(225, 226, 159); */
+  text-decoration: none;
+}
+.footerRightCol {
+  text-align: center;
+  align-content: center;
+  margin: 5% auto;
+  /* margin: auto; */
+  /* background-color: rgb(0, 204, 255); */
+  text-decoration: none;
+}
+
+.footerTitle {
+  font-weight: bold;
+  font-size: .9vw;
+}
+
+.footerLinks {
+  text-decoration: none;
+  color: white;
+  font-size: .7vw;
+}
+.footerLinks:hover {
+  text-decoration: none;
+  color: rgb(184, 184, 184);
+}
+.copyRow {
+  /* height: 7vh; */
+  background-color: rgb(29, 29, 29);
+  /* padding: 10% auto; */
+  margin: 5% auto;
+}
+.copyright {
+  margin: 0 auto;
+  padding: 10% auto;
+  /* margin: auto; */
+  
+  text-decoration: none;
+  text-align: center;
+  font-size: .7vw;
+  color: white;
+}
+
+
+
+
+
+
+/* ========================{ JS styling }======================================= */
+/* lightbox */
+
+#lightbox {
+  position: fixed;
+  z-index:1000;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .8);
+  display: none;
+}
+
+#lightbox.active {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#lightbox img {
+  max-width: 90%;
+  max-height: 90%;
+  background-color: black;
+  border: 20px solid white;
+}
+
+
+
+
+
+
+
+
+/* ========================{ Media Queries }======================================= */
+
+  /* PHONES */
+
+  @media screen and (max-width: 980px) {
+  
+
+    #preloader{
+      background-size: 65%;
+    }
+
+.title {
+    font-size: 6vw;
+}
+
+.subTitle {
+  text-align: center;
+  font-size: 2.5vw;
+}
+.extraTitle {
+    font-size: 6vw;
+}
+
+.extraSubtitle {
+  text-align: center;
+  font-size: 3vw;
+}
+
+
+.logoImage {
+  width: 70%;
+
+
+.menuInnerCols {
+  text-align: center;
+  /* margin: 0 5% 0 auto; */
+}
+
+
+
+
+
+
+
+.build {
+    width: 95%;
+    margin: 2% 0;
+}
+.anthro {
+    width: 95%;
+    margin: 2% 0;
+}
+.paint {
+    width: 95%;
+    margin: 2% 0;
+}
+
+.topJumpContainer {
+  margin: 15% auto 20% auto;
+  font-size: 3vw;
+}
+
+.other {
+  /* width: 80%; */
+}
+
+.appleii {
+  width: 70%;
+  transition: width .4s;
+}
+
+.appleii:hover {
+  width: 75%;
+}
+
+.aboutText {
+  /* font-size:250%; */
+  margin: 17% auto;
+  font-size: 4vw;
+  /* height: .mePic; */
+
+ 
+}
+
+.shopText {
+  /* text-align: center; */
+  font-size: 3vw;
+  /* height: 30%; */
+}
+
+.successMessage {
+  font-size: 3vw;
+}
+
+
+.desktopExtra {
+/* visibility: hidden; */
+  display: none;
+}
+
+.mobileExtra {
+  visibility: visible;
+  /* display: inline-block; */
+}
+
+
+.footerRow {
+  /* height: 30vh; */
+}
+.copyRow {
+  /* height: 7vh; */
+}
+.footerTitle {
+  font-size: 3vw;
+}
+.footerLinks {
+  font-size: 2vw;
+  text-decoration: none;
+}
+.copyright {
+  font-size: 2vw;
+  margin: 5% auto 15% auto;
+  color: orange;
+}
+
+}
