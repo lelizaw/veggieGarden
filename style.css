@@ -228,14 +228,22 @@ html, body {
   /* margin: 0 5% 0 auto; */
 }
 
+.baoBunAnimation {
+  width:40%;
+  margin: 0 auto 4% auto;
+  display: block;
+}
 
+.baoBunDiv {
+
+}
 
 
 /* =========================={ Footer }========================================== */
 
 
 .footerRowMaster {
-  background-color: rgb(29, 29, 29);
+  /* background-color: rgb(29, 29, 29); */
   
 }
 
